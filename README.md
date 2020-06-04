@@ -74,11 +74,20 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
   $ hub clone pjavier98/ecoleta
 ```
+2. Instalar as dependências: 
+```sh
+  $ yarn
+```
 
-2. Executando a Aplicação:
+3. Executando a Aplicação:
+```sh
+  $ yarn start
 ```
-  Abrir no navegador o arquivo: index.html
+4. Abrir no navegador a url:
 ```
+  localhost:3000
+```
+
 
 <a id="como-contribuir"></a>
 
