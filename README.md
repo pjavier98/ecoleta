@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img alt="Logo" width="300px" src="assets/logo.svg">
+    <img alt="Logo" width="300px" src="public/assets/logo.svg">
     <br><br>
     <b>Recicle! ajude o meio ambiente!</b> 
 </h3>
