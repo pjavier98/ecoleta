@@ -14,7 +14,7 @@
 }
 
 #page-create-point header a {
-  color: var(--title-color);
+  color: var(--title-paragraph-color);
   font-weight: bold;
 
   display: flex;
@@ -44,6 +44,7 @@ form {
 
 form h1 {
   font-size: 36px;
+  color: var(--form-color);
 }
 
 form fieldset {
@@ -62,11 +63,12 @@ form legend {
 
 form legend h2 {
   font-size: 24px;
+  color: var(--form-color);
 }
 
 form legend span {
   font-size: 14px;
-  color: var(--title-color);
+  color: var(--form-color);
 }
 
 form .field {
@@ -165,7 +167,7 @@ form button:hover {
   display: flex;
   align-items: center;
 
-  color: var(--title-color);
+  color: var(--form-color);
 }
 
 .items-grid li.selected {

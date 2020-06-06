@@ -79,7 +79,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
   $ yarn
 ```
 
-3. Executando a Aplicação:
+1. Executando a Aplicação:
 ```sh
   $ yarn start
 ```

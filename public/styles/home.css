@@ -24,7 +24,7 @@
 
 #page-home header a {
   display: flex;
-  color: var(--title-color);
+  color: var(--title-paragraph-color);
   font-weight: 700;
 }
 
@@ -54,6 +54,7 @@
   font-size: 24px;
   line-height: 38px;
   margin-top: 24px;
+  color: #78969f;
 }
 
 #page-home main a {

@@ -1,6 +1,8 @@
 :root {
-  --title-color: #322153;
+  --title-paragraph-color: #efd7dd;
+  --form-color: #395693;
   --primary-color: #34cd79;
+  --background-color: #322153;
 }
 
 * {
@@ -14,7 +16,7 @@ html {
 }
 
 body {
-  background: #f0f0f5;
+  background: var(--background-color);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -28,7 +30,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Ubuntu, sans-serif;
-  color: var(--title-color)
+  color: var(--title-paragraph-color)
 }
 
 /* 
