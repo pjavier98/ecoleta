@@ -1,0 +1,16 @@
+<div id="modal" class="error">
+  <div class="content">
+    <img src="/assets/sad.svg" alt="Error">
+    {% if message %}
+      <span>{{ message }}</span>
+    {% else %}
+      <span>Aconteceu um erro inesperado, por favor tente novamente</span>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+  setTimeout(() => {
+    window.location = '/';
+  }, 2000); 
+</script>

@@ -25,7 +25,7 @@ server.post('/save-point', (request, response) => {
   const { image, name, address, address2, state, city, items } = request.body;
 
   const query = `
-    INSERT INTO places (
+    INSERT INT places (
       image,
       name,
       address,
@@ -51,7 +51,7 @@ server.post('/save-point', (request, response) => {
   function afterInsertData(err) {
     if (err) {
       console.log(err);
-      return response.send('Erro no cadastro');
+      return response.render('create-point.html', { error: true, message: 'Aconteceu um erro no cadastramento do ponto de coleta, por favor tente novamente' });
     }
 
     console.log("Cadastrado com sucesso");
@@ -73,7 +73,8 @@ server.get('/search', (request, response) => {
   db.all(`SELECT * FROM places WHERE city LIKE '%${city}%'`, 
     function (err, rows) {
       if (err) {
-        return console.log(err);
+        console.log(err);
+        return response.render('create-point.html', { error: true, message: 'Aconteceu um erro na busca pelos pontos de coleta, por favor tente novamente' });
       }
 
       const numberOfPlaces = rows.length;
